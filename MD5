@@ -1,0 +1,16 @@
+2a3146d4e7dd128ff454a1155a7d1039 *DESCRIPTION
+07f846684c0ce7ae81c2fab98b0d5516 *LICENSE
+55e7975b50b109d720b6cd0105769459 *NAMESPACE
+56b66f1e466709ed63fe209f8d973319 *NEWS.md
+a05c96765ea141dfffbe128e6ae688be *R/main.r
+662386b9876303affb80a917840b8d08 *R/tmux.r
+d8486e5bcdc3ea501e07179e6a6f9ddf *README.md
+76caad8c393eb74264b4d021d24ff8ac *build/vignette.rds
+80c606cf3b15391b26b1569fb81b6388 *inst/doc/introduction.R
+e2c111f335797111dd0be2eb7285e24d *inst/doc/introduction.Rmd
+8ea080da16d6ceb6395d38a4c8f74517 *inst/doc/introduction.html
+8beebc1eb8b7ed52bd6ed1f4a469c266 *inst/tmux_pane.sh
+6cdd77ea63bda8a6348f471f6b660b1f *man/check_vd.Rd
+363809ba2fc14e52d82a99f8debf010c *man/get_vd_cmd.Rd
+86d64e0503f086f4cefecac070c14ed1 *man/vd.Rd
+e2c111f335797111dd0be2eb7285e24d *vignettes/introduction.Rmd

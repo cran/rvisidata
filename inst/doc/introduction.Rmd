@@ -1,0 +1,42 @@
+---
+title: "Introduction to rvisidata"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Introduction to rvisidata}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+## Setup
+
+```{r setup}
+library(rvisidata)
+```
+
+You need to have VisiData installed. Please follow the official installation instructions [provided here](https://www.visidata.org/install/).
+
+To verify visidata is installed correctly, `vd --version` should print out the installed version.
+
+## Introduction to rvisidata
+
+Use `rvisidata` with the `iris` dataset.
+
+```{r vd-iris, eval=FALSE}
+# This function calls an interactive VisiData session with the provided data frame.
+# The session will block any further code execution until it's exited.
+# The \dontrun{} is used here to prevent execution during vignette rendering and R CMD check.
+#' \dontrun{
+vd(iris)
+#' }
+```
+
+## Limitations
+
+Any changes to the data made in within VisiData is *not* stored or passed back to `R`. You can use VisiData solely to display and explore the data.
